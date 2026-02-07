@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "cd client && npx expo export",
+  "buildCommand": "cd client && npx expo export --platform web",
   "outputDirectory": "client/dist",
   "installCommand": "pnpm install",
   "framework": null,
