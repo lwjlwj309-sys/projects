@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "coze-coding-dev-sdk": "^0.7.15"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.2.24",
+    "typescript": "^5.8.3"
+  }
+}
