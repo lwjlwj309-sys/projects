@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "pnpm --filter client build",
+  "buildCommand": "cd client && npx expo export",
   "outputDirectory": "client/dist",
   "installCommand": "pnpm install",
   "framework": null,
