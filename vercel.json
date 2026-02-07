@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "cd client && npx expo build:web",
+  "buildCommand": "pnpm --filter client build:web",
   "outputDirectory": "client/web",
   "installCommand": "pnpm install",
   "framework": null,
