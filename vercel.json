@@ -2,16 +2,16 @@
  "version": 2,
   "buildCommand": "cd client && npx expo export",
   "outputDirectory": "client/dist",
-  "installCommand": "pnpm install",
+  "installCommand": "npm install --legacy-peer-deps",
   "framework": null,
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "/api/:path*"
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
     },
     {
       "source": "/((?!api/).*)",
-      "destination": "/client/$1"
+      "destination":"/client/$1"
     }
   ],
   "functions": {
