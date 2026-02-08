@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
    "check-deps": "npx depcheck",
-    "postinstall": "npm run install-missing",
+    "postinstall": "echo skip-postinstall",
     "install-missing": "node ./scripts/install-missing-deps.js",
     "lint": "expo lint",
     "build": "npx expo export", 
