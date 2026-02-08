@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "pnpm --filter client build:web",
-  "outputDirectory": "client/web",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "client/dist",
   "installCommand": "pnpm install",
   "framework": null,
   "rewrites": [
