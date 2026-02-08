@@ -7,7 +7,7 @@
     "build": "bash .cozeproj/scripts/prod_build.sh",
     "start": "bash .cozeproj/scripts/prod_run.sh",
     "preinstall": "npx only-allow pnpm",
-    "build:vercel": "cd client && npx expo export:web"
+    "build:vercel": "cd client && npx expo export"
   },
   "dependencies": {},
   "devDependencies": {},
